@@ -1,0 +1,20 @@
+# Ignorar node_modules (pasta de dependências)
+node_modules/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de configuração do ambiente
+.env
+
+# Ignorar arquivos do sistema operacional (exemplo para macOS)
+.DS_Store
+
+# Ignorar arquivos de compilação temporários
+/build/
+
+# Ignorar arquivos de dependências do npm que já estão no package.json
+package-lock.json
+
+# Ignorar diretórios específicos de IDEs (exemplo para VSCode)
+.vscode/
